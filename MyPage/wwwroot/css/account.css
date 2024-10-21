@@ -1,0 +1,97 @@
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.account-container {
+    background: url('../images/BG8.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem 0;
+    overflow: hidden;
+}
+
+.account-box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+    max-width: 500px;
+    width: 100%;
+}
+
+.account-box h2 {
+    font-size: 2em;
+    font-weight: 800;
+    color: #000;
+    text-align: center;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.form-control {
+    width: 100%;
+    height: 45px;
+    border: 1px dashed #000;
+}
+
+.form-control::placeholder {
+    color: rgba(29, 27, 27, 0.4);
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.form-control:hover {
+    border: 3px solid #000;
+}
+
+.account-box a {
+    color: #0031d1e2;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.account-box a:hover {
+    color: #000;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-form {
+    width: 100%;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.btn-form:hover {
+    background: #fff;
+    border-radius: 8px;
+    border: 3px solid #000;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    color: #000000;
+}
