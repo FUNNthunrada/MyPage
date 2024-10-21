@@ -12,7 +12,7 @@ After cloning the project, you can update the connection string in **appsettings
 ////////////////////////////////////
 
 2. Accessing the Site:
-   - Please register and log in to access the site.
+   - Please register your account and log in to access the site.
    - In another choice, you can log in with the demo user.
      Email:  demo@example.com
      Password:  123456%abc
